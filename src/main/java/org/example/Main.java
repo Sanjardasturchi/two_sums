@@ -12,6 +12,7 @@ public class Main {
 
         while (left < right) {
             int sum = nums[left] + nums[right];
+
             if (sum == target) {
                 System.out.println(nums[left] + " + " + nums[right] + " = " + target);
                 return;
